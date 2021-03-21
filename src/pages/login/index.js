@@ -36,10 +36,10 @@ const Login = () => {
   return (
     <Grid textAlign="center" style={{ height: "100vh" }} verticalAlign="middle">
       <Grid.Column style={{ maxWidth: 450 }}>
-        <Header as="h1" color="teal" textAlign="center">
+        <Header as="h1" textAlign="center" className="white-font">
           TODO-ISH
         </Header>
-        <Header as="h2" color="teal" textAlign="center">
+        <Header as="h2" textAlign="center" className="white-font">
           Log-in to your account
         </Header>
         <Form size="large">
@@ -77,12 +77,12 @@ const Login = () => {
               }}
             />
             <div className="error">{error && error}</div>
-            <Button color="teal" fluid size="large" onClick={signin}>
+            <Button fluid size="large" onClick={signin}>
               Login
             </Button>
           </Segment>
         </Form>
-        <Message className="secondary-color">
+        <Message className="secondary-color white-font">
           New to us?{" "}
           <a href="/signup" className="link">
             Sign Up

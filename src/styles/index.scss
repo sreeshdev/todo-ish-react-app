@@ -13,8 +13,11 @@ $font-color: rgba(#fff, 0.96);
 .secondary-color {
   background-color: $secondary-color !important;
 }
+.white-font {
+  color: $font-color !important;
+}
 .link {
-  color: black;
+  color: $font-color;
 }
 .inputBox {
   background-color: $primary-color !important;

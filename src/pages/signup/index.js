@@ -40,10 +40,10 @@ const Signup = () => {
   return (
     <Grid textAlign="center" style={{ height: "100vh" }} verticalAlign="middle">
       <Grid.Column style={{ maxWidth: 450 }}>
-        <Header as="h1" color="teal" textAlign="center">
+        <Header as="h1" textAlign="center" className="white-font">
           TODO-ISH
         </Header>
-        <Header as="h2" color="teal" textAlign="center">
+        <Header as="h2"textAlign="center" className="white-font">
           Sign-up to your account
         </Header>
         <Form size="large">
@@ -86,7 +86,7 @@ const Signup = () => {
           </Segment>
         </Form>
         <div className="error">{error && error}</div>
-        <Message className="secondary-color">
+        <Message className="secondary-color white-font">
           Already Have Account?{" "}
           <a className="link" href="/">
             Log In
