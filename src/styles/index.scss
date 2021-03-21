@@ -1,0 +1,150 @@
+$base-color: #121212;
+$primary-color: #1b1c1e;
+$secondary-color: #6b2e9a;
+$font-color: rgba(#fff, 0.96);
+
+.dark-color {
+  background-color: $base-color !important;
+}
+.primary-color {
+  background-color: $primary-color !important;
+  color: $font-color !important;
+}
+.secondary-color {
+  background-color: $secondary-color !important;
+}
+.link {
+  color: black;
+}
+.inputBox {
+  background-color: $primary-color !important;
+  color: $font-color !important;
+  border-color: $secondary-color !important;
+}
+.inputLable {
+  color: $font-color !important;
+}
+.homeHead {
+  height: 140px;
+  display: flex;
+  justify-content: space-between;
+  color: $font-color !important;
+  padding: 10px;
+  margin: 10px 10% 10px 10% !important;
+  border-radius: 5px;
+}
+.head-partition {
+  height: 120px;
+  width: 20%;
+  display: flex;
+  color: $font-color !important;
+  justify-content: center;
+  align-items: center;
+  background-color: $secondary-color;
+  border-radius: 10px;
+}
+.homeHead2 {
+  display: flex;
+  justify-content: center;
+  color: $font-color !important;
+  padding: 10px;
+  margin: 10px 30% 10px 30% !important;
+  border-radius: 5px;
+}
+.ui.button {
+  background-color: $secondary-color !important;
+  color: #fff;
+}
+.recentTable {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.suggestionLable {
+  cursor: pointer;
+}
+.suggestionLable:hover {
+  opacity: 0.75;
+}
+.suggestionBox {
+  margin-top: 10px;
+}
+.bucketlistContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 50px 10%;
+  // background-color: $primary-color !important;
+  // min-height: 80vh;
+  padding: 10px;
+}
+.bucketCard {
+  width: 150px;
+  height: 100px;
+  background-color: $secondary-color !important;
+  margin: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bucketCard:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+.addbutton {
+  float: right !important;
+  width: auto;
+  margin: 20px 30px !important;
+  .icon {
+    color: $font-color;
+  }
+}
+.Links {
+  color: $font-color;
+}
+.Links:hover {
+  color: $font-color;
+}
+.todo-table {
+  margin: auto;
+  width: 80%;
+}
+.ui.menu {
+  margin: 0 !important;
+}
+.ui.segment {
+  margin: 0 !important;
+}
+.bucket-menu {
+  overflow-x: scroll;
+}
+.bucket-menu::-webkit-scrollbar {
+  display: none;
+}
+.edit-cell {
+  display: flex;
+  justify-content: space-evenly;
+}
+.no-data {
+  display: flex;
+  justify-content: center;
+  color: $font-color !important;
+  align-items: center;
+  height: 30vh;
+}
+.error {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  color: $font-color;
+}
+.ui.statistic > .label,
+.ui.statistics .statistic > .label {
+  color: $font-color !important;
+}
+.ui.statistic > .value,
+.ui.statistics .statistic > .value {
+  color: $font-color !important;
+}

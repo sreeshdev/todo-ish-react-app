@@ -1,0 +1,6 @@
+export const bucketConstants = {
+  ADD_LIST: "ADD_BUCKET_LIST",
+  ADD_TODO_LIST: "ADD_TODO_LIST",
+  OPEN_MODAL: "OPEN_MODAL",
+  DELETE_TODO: "DELETE_TODO",
+};
